@@ -17,3 +17,7 @@ cpe-search-dictionary.db3
 productdb.db3
 deprecated-cpes.json
 update_logs
+encore.gen.go
+encore.gen.cue
+/.encore
+/encore.gen

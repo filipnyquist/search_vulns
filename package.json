@@ -1,0 +1,26 @@
+{
+  "name": "search-vulns",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Search for known vulnerabilities in software using Encore.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "encore run",
+    "build": "encore build docker"
+  },
+  "keywords": ["vulnerabilities", "security", "cve", "api"],
+  "author": "Dustin Born",
+  "dependencies": {
+    "encore.dev": "^1.50.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2",
+    "vitest": "^1.5.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.13.0"
+  }
+}
