@@ -16,7 +16,7 @@ from .modules.utils import download_file, get_database_connection, is_safe_db_na
 
 UPDATE_MODULES = None
 UPDATE_LOGS_DIR = os.path.join(PROJECT_DIR, "update_logs")
-SV_RELEASE_URL = "https://github.com/ra1nb0rn/search_vulns/releases/"
+SV_RELEASE_URL = "https://github.com/filipnyquist/search_vulns/releases/"
 LATEST_RELEASE_URL = SV_RELEASE_URL + "/latest"
 PRODUCT_DB_ARTIFACT_URL = SV_RELEASE_URL + f"download/v{get_version()}/productdb.db3"
 VULNDB_ARTIFACT_URL = SV_RELEASE_URL + f"download/v{get_version()}/vulndb.db3"
